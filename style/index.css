@@ -29,3 +29,36 @@ font-size: 40px;
     
 
 }
+
+.nav-bar{
+    position: absolute;
+    width: 1773px;
+    height: 57px;
+    left: 143px;
+    top: 770px;
+    display: flex;
+    justify-content: space-between;
+    
+    background: #5474FD;
+
+}
+
+.p-nav--bar{
+    color:#FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.a-nav{
+    color: #FFFFFF;
+  margin-left: 80px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  width: 100%;
+
+}
+.a-nav:hover{
+    cursor: pointer;
+    
+}
