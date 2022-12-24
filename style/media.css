@@ -4,18 +4,119 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px) 
   
-    /* CSS */
+    /* CSS 1281 x 767 */
     
+{
+    .search-bar{
+      position: absolute;
+      top: 44%;
+      left: 30%;
+      width: 50%;
+      height: 24px;
+    }
+    .choose-image1{
+      position: absolute;
+      width: 300px;
+      height: 220px;
+      top: 83%;
+      left: 62%;
   }
+  .choose-image2 {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    top: 113%;
+    left: 70%;
+}
+.h2-choose {
+  position: absolute;
+  width: 288px;
+  height: 26px;
+  left: 145px;
+  top: 95%;
+  color: #FFFFFF;
+  font-family: 'Aleo', serif;
+  }
+  .p-choose {
+    position: absolute;
+    width: 560px;
+    height: 158px;
+    left: 150px;
+    top: 104%;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    letter-spacing: 1.6px;
+  }
+  .choose-button {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 150px;
+    top: 121%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #5474FD;
+    border: 1px solid #5474FD;
+}
+.spain-madrid {
+  position: absolute;
+  width: 543px;
+  height: 374px;
+  left: 153px;
+  top: 173%;
+  color: #FFFFFF;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.spain-madrid2{
+  position: absolute;
+  width: 543px;
+  height: 374px;
+  left: 536px;
+  top: 234%;
+  color: #FFFFFF;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.sam-sumon2 {
+  position: absolute;
+  width: 445px;
+  height: 284px;
+  left: 146px;
+  top: 309%;
+}
+.sam-sumon-p {
+  color: #E8E8E8;
+  background-color: #333333;
+  position: absolute;
+  width: 600px;
+  height: 284px;
+  left: 591px;
+  top: 309%;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+}
+
   
   /* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width:767px) and (max-width: 1281px) {
     
     /* CSS */
     
@@ -50,10 +151,172 @@
   
   @media (min-width: 481px) and (max-width: 767px) {
     
-    /* CSS */
+    /* CSS  481x220 */
+    .bhromaon-h1 {
+      color: #FFFF;
+      position: absolute;
+      width: 342px;
+      height: 26px;
+      left: 226px;
+      top: 54px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 26px;
+  }
+  .search-bar input[type=text] {
+    position: absolute;
+    top: 56%;
+    left: 44%;
+    width: 45%;
+    height: 18px;
+}
+.nav-bar {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  left: 0px;
+  top: 184px;
+  display: flex;
+  justify-content: space-between;
+  background: #5474FD;
+}
+.a-nav {
+  color: #FFFFFF;
+  margin-left: 80px;
+  text-align: center;
+  font-family: 'Aleo', serif;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 7px;
+  margin-left: 30px;
+}
+.h2-choose {
+  position: absolute;
+  width: 288px;
+  height: 26px;
+  left: 59px;
+  top: 115%;
+  color: #FFFFFF;
+  font-family: 'Aleo', serif;
+  font-size: 15px;
     
   }
-  
+  .p-choose {
+    position: absolute;
+    width: 296px;
+   
+    left: 21px;
+    top: 130%;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    letter-spacing: 1.6px;
+    font-size: 10px;
+}
+.choose-button {
+  position: absolute;
+  width: 130px;
+  height: 22px;
+  left: 37px;
+  top: 168%;
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #5474FD;
+  border: 1px solid #5474FD;
+  }
+  .choose-image1 {
+    position: absolute;
+    width: 148px;
+    height: 70px;
+    top: 105%;
+    left: 67%;
+}
+.choose-image2 {
+  position: absolute;
+  width: 151px;
+  height: 84px;
+  top: 143%;
+  left: 67%;
+}
+.spain-madrid--button {
+  border: 1px solid #496BFE;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  font-size: 13px;
+  width: 89px;
+  height: 23px;
+  font-family: 'Aleo', serif;
+  }
+  .spain-madrid {
+    position: absolute;
+    width: 221px;
+    height: 168px;
+    left: 50px;
+    top: 249%;
+    color: #FFFFFF;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+}
+.spain-madrid2 {
+  position: absolute;
+  width: 221px;
+  height: 171px;
+  left: 162px;
+  top: 335%;
+  color: #FFFFFF;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+}
+.spain-madrid--button2 {
+  border: 1px solid #496BFE;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  font-size: 13px;
+  width: 89px;
+  height: 23px;
+  height: 2;
+  font-family: 'Aleo', serif;
+  font-size: 10px;
+}
+.sam-sumon--h2 {
+  color: #FFFFFF;
+  position: absolute;
+  width: 390px;
+  height: 26px;
+  left: 134px;
+  top: 423%;
+  font-size: 15px;
+  font-family: 'Aleo', serif;
+}
+.sam-sumon-p {
+  color: #E8E8E8;
+  background-color: #333333;
+  position: absolute;
+  width: 323px;
+  height: 151px;
+  left: 60px;
+  top: 439%;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sam-sumon2 {
+  display: none;
+  }
+
+}
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px

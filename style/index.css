@@ -1,3 +1,4 @@
+
 .bhromaon-h1{
 color: #FFFFFF;
 position: absolute;
@@ -32,10 +33,10 @@ font-size: 40px;
 
 .nav-bar{
     position: absolute;
-    width: 1773px;
-    height: 57px;
-    left: 143px;
-    top: 770px;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 547px;
     display: flex;
     justify-content: space-between;
     
@@ -45,7 +46,8 @@ font-size: 40px;
 
 .p-nav--bar{
     color:#FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Aleo', serif;
+  
  
 }
 
@@ -53,12 +55,212 @@ font-size: 40px;
     color: #FFFFFF;
   margin-left: 80px;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Aleo', serif;
   text-decoration: none;
   width: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
 
 }
 .a-nav:hover{
     cursor: pointer;
     
+}
+
+.h2-choose{
+    position: absolute;
+    width: 288px;
+    height: 26px;
+    left: 150px;
+    top: 135%;
+    color:#FFFFFF;
+    font-family: 'Aleo', serif;
+}
+
+.p-choose{
+    position: absolute;
+    width: 560px;
+    height: 158px;
+    left: 150px;
+    top: 146%;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    letter-spacing: 1.6px;
+    
+}
+.choose-button{
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 150px;
+    top: 168%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #5474FD;
+    border: 1px solid #5474FD;
+}
+
+.choose-image1{
+    position: absolute;
+width: 300px;
+height: 220px;
+top:104%;
+left:62%;
+
+}
+.choose-image2{
+    position: absolute;
+    width: 300px;
+    height: 189px;
+    top: 148%;
+    left:70%
+    
+}
+
+.icons{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+  margin-bottom: 10%;
+    color:#E8E8E8;
+    
+}
+
+.icons2{
+    display: flex;
+    background-color: #333333;
+    color:#E8E8E8;
+    justify-content: space-between;
+    margin-top:-1%;
+   
+
+}
+.p-icon{
+    font-family: 'Aleo', serif;
+
+}
+.img-icon{
+    padding-top:10px;
+}
+
+
+.shape-icons{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spain-madrid{
+    position: absolute;
+width: 543px;
+height: 374px;
+left: 153px;
+top: 219%;
+color: #FFFFFF;
+background: #232323;
+mix-blend-mode: normal;
+opacity: 0.9;
+padding-left: 30px;
+padding-right: 30px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.p-spain--madrid{
+    padding-top: 20px;
+}
+
+.spain-madrid--button{
+border: 1px solid #496BFE;
+    background-color: #496BFE;
+    color: #FFFFFF;
+    font-size: 13px;
+    width: 150px;
+height: 50px;
+font-family: 'Aleo', serif;
+}
+
+.spain-madrid2{
+    position: absolute;
+width: 543px;
+height: 374px;
+left: 487px;
+top: 305%;
+color: #FFFFFF;
+background: #232323;
+mix-blend-mode: normal;
+opacity: 0.9;
+padding-left: 30px;
+padding-right: 30px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.p-spain--madrid2{
+    padding-top: 20px;
+}
+
+.spain-madrid--button2{
+border: 1px solid #496BFE;
+    background-color: #496BFE;
+    color: #FFFFFF;
+    font-size: 13px;
+    width: 150px;
+height: 50px;
+font-family: 'Aleo', serif;
+}
+
+
+.sam-sumon--h2{
+    color:#FFFFFF;
+position: absolute;
+width: 390px;
+height: 26px;
+left: 470px;
+top: 392%;
+font-family: 'Aleo', serif;
+}
+
+.sam-sumon2{
+
+    position: absolute;
+width: 445px;
+height: 284px;
+left: 146px;
+top: 410%;
+}
+
+.sam-h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sam-sumon-p{
+    color: #E8E8E8;
+    background-color:  #333333;
+    position: absolute;
+width:500px;
+height: 285px;
+left: 581px;
+top: 410%;
+padding-left: 30px;
+padding-right: 10px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer{
+    background-color:#232323;
+    color: #FFFFFF;
+padding-top: 20px;
+font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.footer-icons{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.safe-travel--h2, .safe-travel--p{
+    text-align: center;
+   
 }
